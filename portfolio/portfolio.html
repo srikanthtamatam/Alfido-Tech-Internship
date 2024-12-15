@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Srikanth, a passionate developer eager to showcase my projects and skills. This is my
+                personal portfolio website to give you a glimpse into my world.</p>
+            <img src="srikanth_photo.jpg" alt="Your Photo"
+                style="width: 200px; border-radius: 50%; display: block; margin: 0 auto;">
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="project-card">
+                    <img src="portfolio.png" alt="Project 1">
+                    <div class="description">
+                        <h3>Project 1</h3>
+                        <p>simple portfolio website, made using html, css and javascript</p>
+                        <a href="project1.html">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="todolist.png" alt="Project 2">
+                    <div class="description">
+                        <h3>Project 2</h3>
+                        <p>To-Do-List Application, made using html, css and javascript</p>
+                        <a href="project2.html">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">C Language</div>
+                <div class="skill">C++</div>
+                <div class="skill">Python</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Operating Systems</div>
+                <div class="skill">Computer Networks</div>
+                <div class="skill">DBMS</div>
+                <div class="skill">Data Structures</div>
+                <div class="skill">Algorithms</div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
